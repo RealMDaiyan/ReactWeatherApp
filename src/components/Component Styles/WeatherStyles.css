@@ -1,0 +1,41 @@
+.capitalize {
+    text-transform: capitalize;
+}
+
+.clear {
+    background-color: #87CEEB; 
+    color: #2C3E50; 
+}
+
+.sunny {
+    background-color: #FFD700; 
+    color: #2C3E50; 
+}
+
+.cloudy {
+    background-color: #F0F8FF; 
+    color: #2C3E50; 
+}
+
+.rainy {
+    background-color: #A9A9A9; 
+    color: #FFFFFF; 
+}
+
+.weather-container {
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.5s ease;
+}
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
